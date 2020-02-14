@@ -1,0 +1,125 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+hr{
+  width: 50px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #eaf6f6;
+
+}
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+/******************* Class Selectors**********/
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.bh {
+  text-decoration: underline;
+}
+
+.circular {
+  border-radius: 100%;
+  width: 200px;
+}
+.font-weight {
+  font-weight: normal;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.bowling-img {
+  width: 50%;
+  float: left;
+
+}
+.bhs-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  margin-top: 80px;
+  padding: 50px 0 20px;
+}
+.myButton {
+	box-shadow:inset 0 1px 3px 0 #91b8b3;
+	background-color:#66bfbf;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:1px -1px 7px #2b665e;
+}
+.myButton:hover {
+	background-color:#eaf6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
